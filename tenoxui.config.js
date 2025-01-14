@@ -1,7 +1,3 @@
-export default {
-  property: {
-    bg: 'background',
-    text: 'color',
-    p: 'padding'
-  }
-}
+import { property } from '@tenoxui/property'
+
+export default { property, aliases: { center: 'd-flex flex-parent-center' } }
